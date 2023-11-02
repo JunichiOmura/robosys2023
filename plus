@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Junichi Omura
 # SPDX-License-Identifier: BSD-3-Clause
 
+
 import sys
 
 ans = 0
