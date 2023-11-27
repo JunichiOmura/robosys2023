@@ -3,6 +3,7 @@
 
 # plusコマンド
 [![test](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml)
+
 標準入力から値を読み取り、整数に変換できるか確認しできないならば浮動小数点数に変換する。そして、変換した数値を合計する。
 
 ### インストール方法
