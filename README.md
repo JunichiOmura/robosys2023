@@ -5,23 +5,26 @@
 [![test](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml)
 標準入力から値を読み取り、整数に変換できるか確認しできないならば浮動小数点数に変換する。そして、変換した数値を合計する。
 
-## インストール方法
+### インストール方法
 以下のノードを実行する。
-'''
-$ git clone git@github.com:JunichiOmura/robosys2023.git
-'''
 
-## 使用方法
+```
+$ git clone git@github.com:JunichiOmura/robosys2023.git
+```
+
+### 使用方法
 * 以下のコマンドでこのリポジトリに移動する。
-'''
+
+```
 $ cd robosys2023
-'''
+```
 
 * 実行例
-'''
+
+```
 $ seq 10 | ./plus
   15
-'''
+```
 
 # 必要なソフトウェア
 * Phthon
