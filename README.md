@@ -4,7 +4,7 @@
 # plusコマンド
 [![test](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/JunichiOmura/robosys2023/actions/workflows/test.yml)
 
-標準入力から値を読み取り、整数に変換できるか確認しできないならば浮動小数点数に変換する。そして、変換した数値の合計を出力する。
+標準入力から値を読み取り、値を整数に変換し、もしできないならば浮動小数点に変換する。そしてそれらの合計を出力する。
 
 ### インストール方法
 以下のノードを実行する。
