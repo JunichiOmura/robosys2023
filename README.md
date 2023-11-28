@@ -10,7 +10,7 @@
 以下のノードを実行する。
 
 ```
-$ git clone git@github.com:JunichiOmura/robosys2023.git
+$ git clone https://github.com/JunichiOmura/robosys2023.git
 ```
 
 ### 使用方法
