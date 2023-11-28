@@ -11,7 +11,7 @@ res=0
 
 ### I/O ###
 out=$(seq 5 | ./plus)
-[ "$[out]" = 15 ] || ng ${LINENO}
+[ "${out}" = 15 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
@@ -27,4 +27,4 @@ out=$(echo ! | ./plus)
 [ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
-exit $resi
+exit $res
